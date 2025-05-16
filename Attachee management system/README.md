@@ -33,4 +33,13 @@ A simple web-based system built with **Flask**, **HTML** and **Python** that hel
 
 - Return to main route anytime using back button
 
+## 🔮 Future Enhancements
+- Persistent database (e.g., SQLite or PostgreSQL)
 
+- User login/authentication (attachees + supervisors)
+
+- Score calculation & analytics dashboard
+
+- Task deadlines, status tracking
+
+- Export reports to Excel/PDF
