@@ -38,8 +38,8 @@ A simple web-based system built with **Flask**, **HTML** and **Python** that hel
 ### This is where supervisor navigates
 ![Supervisor Dashboard](screenshots/index.png)
 
-### This is where supervisor navigates
-![Supervisor Dashboard](screenshots/index.png)
+### Below is where attachee views if their is any task.
+![Supervisor Dashboard](screenshots/portal.png)
 
 ### This is where supervisor navigates
 ![Supervisor Dashboard](screenshots/index.png)
