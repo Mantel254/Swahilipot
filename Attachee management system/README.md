@@ -35,7 +35,8 @@ A simple web-based system built with **Flask**, **HTML** and **Python** that hel
  ### Attachee page, where they sign in/Register
 ![Attachee Page](screenshots/user_page.png)
 
-![Supervisor Dashboard](screenshots/supervisor_dashboard.png)
+### This is where supervisor navigates
+![Supervisor Dashboard](screenshots/index.png)
 
 
 ## 🔮 Future Enhancements
