@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ attachee.name }}'s Details</title>
+</head>
+<body>
+    <h1>{{ attachee.name }} - {{ attachee.division }}</h1>
+    <a href="{{ url_for('assign_task', division=attachee.division, name=attachee.name) }}">Assign Task</a>
+    <h2>Tasks:</h2>
+    <ul>
+        {% for task in attachee.tasks %}
+            <li>
+                <strong>{{ task.title }}</strong> | Feedback: {{ task.feedback }} | Score: {{ task.score }}
+            </li>
+        {% else %}
+            <li>No tasks assigned yet.</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

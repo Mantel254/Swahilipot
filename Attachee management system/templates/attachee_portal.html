@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>{{ attachee.name }}'s Portal</title>
+</head>
+
+<body>
+    <!-- Back Button -->
+    <a href="{{ url_for('index') }}">
+        <button type="button">Back</button>
+    </a>
+
+    <h1>Welcome, {{ attachee.name }} ({{ attachee.division }})</h1>
+
+    {% if message %}
+    <p style="color: green;"><strong>{{ message }}</strong></p>
+    {% endif %}
+
+    <h2>Assigned Tasks</h2>
+    {% if attachee.tasks %}
+    <ul>
+        {% for task in attachee.tasks %}
+        <li>
+            <strong>{{ loop.index }}. {{ task.title }}</strong><br>
+            Feedback: {{ task.feedback or 'No feedback yet' }}<br><br>
+
+            <form method="POST">
+                <input type="hidden" name="task_index" value="{{ loop.index0 }}">
+                <label>Submit Feedback:</label><br>
+                <textarea name="feedback" required></textarea><br>
+                <button type="submit">Submit Feedback</button>
+            </form>
+        </li>
+        {% endfor %}
+    </ul>
+    {% else %}
+    <p>No tasks assigned yet.</p>
+    {% endif %}
+</body>
+
+</html>

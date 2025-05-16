@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Attachee Management</title>
+</head>
+<body>
+    <h1>Divisions and Attachees</h1>
+    {% for division, attachee_list in attachees.items() %}
+        <h2>{{ division }}</h2>
+        <ul>
+        {% for att in attachee_list %}
+            <li>
+                <a href="{{ url_for('attachee_detail', division=division, name=att.name) }}">{{ att.name }}</a>
+            </li>
+        {% endfor %}
+        </ul>
+    {% endfor %}
+</body>
+</html>
