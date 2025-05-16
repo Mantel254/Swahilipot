@@ -3,6 +3,8 @@
 A simple web-based system built with **Flask**, **HTML** and **Python** that helps a supervisor manage industrial attachees (interns) by grouping them into divisions, assigning tasks, collecting feedback, and scoring performance.
 
 ---
+# Aim
+- Creating the system in less than 12 hours
 
 ## 🔧 Features
 
