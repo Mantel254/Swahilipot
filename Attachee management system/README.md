@@ -32,8 +32,9 @@ A simple web-based system built with **Flask**, **HTML** and **Python** that hel
 - Submit feedback per assigned task
 
 - Return to main route anytime using back button
+ ### Attachee page, where they sign in/Register
+![Attachee Page](screenshots/user_page.png)
 
-![Attachee Portal](screenshots/attachee_portal.png)
 ![Supervisor Dashboard](screenshots/supervisor_dashboard.png)
 
 
