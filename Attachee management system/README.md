@@ -33,6 +33,10 @@ A simple web-based system built with **Flask**, **HTML** and **Python** that hel
 
 - Return to main route anytime using back button
 
+![Attachee Portal](screenshots/attachee_portal.png)
+![Supervisor Dashboard](screenshots/supervisor_dashboard.png)
+
+
 ## 🔮 Future Enhancements
 - Persistent database (e.g., SQLite or PostgreSQL)
 
