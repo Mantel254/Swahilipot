@@ -38,6 +38,11 @@ A simple web-based system built with **Flask**, **HTML** and **Python** that hel
 ### This is where supervisor navigates
 ![Supervisor Dashboard](screenshots/index.png)
 
+### This is where supervisor navigates
+![Supervisor Dashboard](screenshots/index.png)
+
+### This is where supervisor navigates
+![Supervisor Dashboard](screenshots/index.png)
 
 ## 🔮 Future Enhancements
 - Persistent database (e.g., SQLite or PostgreSQL)
